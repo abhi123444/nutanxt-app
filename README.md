@@ -121,9 +121,12 @@ npx react-native run-android
 - `@react-navigation/bottom-tabs`
 - Custom NativeModules (Bluetooth & ARP Scanner)
 
-![Hotspot Scanner](assets/Screenshot_2025-06-07-22-14-49-609_com.nutanxt.jpg)
-
-![Bluetooth Toggle](assets/Screenshot_2025-06-07-22-14-53-497_com.nutanxt.jpg)
+<table>
+  <tr>
+    <td><img src="assets/Screenshot_2025-06-07-22-14-49-609_com.nutanxt.jpg" width="300"/></td>
+    <td><img src="assets/Screenshot_2025-06-07-22-14-53-497_com.nutanxt.jpg" width="300"/></td>
+  </tr>
+</table>
 
 
 
