@@ -71,12 +71,6 @@ flowchart TD
 
 > iOS does not support programmatic Bluetooth toggling or hotspot device scanning.
 
-Only for state monitoring:
-```xml
-<key>NSBluetoothAlwaysUsageDescription</key>
-<string>This app uses Bluetooth to monitor state.</string>
-```
-
 ---
 
 ## ⚙️ Project Structure
