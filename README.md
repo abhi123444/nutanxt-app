@@ -32,6 +32,8 @@ flowchart TD
 
 ### 🔹 Hotspot Device Scanner
 
+### 🔹 Hotspot Device Scanner
+
 ```mermaid
 flowchart TD
     A2[User clicks "Scan for Devices" button in JS] --> B2[JS calls ArpScanner.scanDevices() via NativeModule]
@@ -39,6 +41,7 @@ flowchart TD
     C2 --> D2[Parses shell output to extract IP/MAC list]
     D2 --> E2[Sends list to JS via Promise]
     E2 --> F2[React updates state -> renders device list]
+
 ```
 
 ---
