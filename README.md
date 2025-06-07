@@ -36,7 +36,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A2[User clicks "Scan for Devices" button in JS] --> B2[JS calls ArpScanner.scanDevices() via NativeModule]
+    A2[User clicks Scan for Devices button in JS] --> B2[JS calls ArpScanner.scanDevices() via NativeModule]
     B2 --> C2[ArpScannerModule.kt runs "ip neigh" shell command]
     C2 --> D2[Parses shell output to extract IP/MAC list]
     D2 --> E2[Sends list to JS via Promise]
